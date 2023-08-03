@@ -4,10 +4,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class Config {
+public class MyConfig {
 
 
-    @Bean(name = applicationName)
+    @Bean(name = "applicationName")
     public String applicationName(){
         return "Sistema de Vendas";
     }
