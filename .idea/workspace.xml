@@ -5,33 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="625dae89-2764-4c86-9767-e0ba1c255c73" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/repository/ClientesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/repository/ClientesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/VendasApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/ItemPedido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Pedido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Produto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ClientesRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ItemsPedidoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/PedidosRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ProdutosRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ClienteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ProdutoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/meu_schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vendas-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vendas-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/repository/PedidosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/repository/PedidosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/PedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/service/impl/PedidoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/service/impl/PedidoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/PedidosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/PedidosRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/PedidoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/PedidoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/PedidoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/PedidoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/impl/PedidoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/impl/PedidoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/meu_schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +32,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="com.haulmont.jpb.JpaEntity" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -123,6 +114,13 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.stephanieingrid.exception" />
+      <recent name="io.github.stephanieingrid.domain.enums" />
+      <recent name="io.github.stephanieingrid.domain.entity.enum" />
+      <recent name=".enum" />
+      <recent name="io.github.stephanieingrid.rest.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\warzone\vendas\src\main\resources" />
     </key>
@@ -179,5 +177,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.hql.internal.ast.QuerySyntaxException" package="org.hibernate.hql.internal.ast" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

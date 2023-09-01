@@ -5,10 +5,12 @@ import io.github.stephanieingrid.domain.entity.Cliente;
 import io.github.stephanieingrid.domain.entity.ItemPedido;
 import io.github.stephanieingrid.domain.entity.Pedido;
 import io.github.stephanieingrid.domain.entity.Produto;
+import io.github.stephanieingrid.domain.enums.StatusPedido;
 import io.github.stephanieingrid.domain.repository.ClientesRepository;
 import io.github.stephanieingrid.domain.repository.ItemsPedidoRepository;
 import io.github.stephanieingrid.domain.repository.PedidosRepository;
 import io.github.stephanieingrid.domain.repository.ProdutosRepository;
+import io.github.stephanieingrid.exception.PedidoNaoEncontradoException;
 import io.github.stephanieingrid.exception.RegraNegocioException;
 import io.github.stephanieingrid.rest.dto.ItemPedidoDTO;
 import io.github.stephanieingrid.rest.dto.PedidoDTO;
@@ -19,6 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -43,18 +46,35 @@ public class PedidoServiceImpl implements PedidoService {
                 RegraNegocioException("Código de Cliente Inválido."));
 
         Pedido pedido = new Pedido();
-        pedido.setDataPedido(LocalDate.now());
-        pedido.setCliente(cliente);
-        pedido.setTotal(pedidoDTO.getTotal());
+        pedido.setDataPedido( LocalDate.now() );
+        pedido.setCliente( cliente );
+        pedido.setTotal( pedidoDTO.getTotal() );
+        pedido.setStatus(StatusPedido.REALIZADO);
 
-        List<ItemPedido> itemsPedido = converterItems(pedido, pedidoDTO.getItems());
-        pedidosRepository.save(pedido);
-        itemsPedidoRepository.saveAll(itemsPedido);
-        pedido.setItens(itemsPedido);
+        List<ItemPedido> itemsPedido = converterItems( pedido, pedidoDTO.getItems() );
+        pedidosRepository.save( pedido );
+        itemsPedidoRepository.saveAll( itemsPedido );
+        pedido.setItens( itemsPedido );
         return pedido;
     }
 
-    private List<ItemPedido> converterItems(Pedido pedido, List<ItemPedidoDTO> items ){
+    @Override
+    public Optional<Pedido> obterPedidoCompleto( Integer id ) {
+        return pedidosRepository.findByIdFetchItens(id);
+    }
+
+    @Override
+    @Transactional
+    public void atualizaStatus( Integer id, StatusPedido statusPedido ) {
+         pedidosRepository
+                .findById(id)
+                .map(pedido -> {
+                    pedido.setStatus(statusPedido);
+                    return pedidosRepository.save(pedido);
+                }).orElseThrow(() -> new PedidoNaoEncontradoException());
+    }
+
+    private List<ItemPedido> converterItems( Pedido pedido, List<ItemPedidoDTO> items ){
         if (items.isEmpty()){
             throw new RegraNegocioException("Não é possível realizar um pedido sem items");
 
@@ -67,17 +87,17 @@ public class PedidoServiceImpl implements PedidoService {
                             .findById(idProduto)
                             .orElseThrow(
                                     () -> new RegraNegocioException(
-                                            "Código de produto inválido: " + idProduto)
+                                            "Código de produto inválido: " + idProduto )
                             );
 
                     ItemPedido itemPedido = new ItemPedido();
-                    itemPedido.setQuantidade(dto.getQuantidade());
-                    itemPedido.setPedido(pedido);
-                    itemPedido.setProduto(produto);
+                    itemPedido.setQuantidade( dto.getQuantidade() );
+                    itemPedido.setPedido( pedido );
+                    itemPedido.setProduto(produto );
                     return itemPedido;
 
 
-                }).collect(Collectors.toList());
+                }).collect( Collectors.toList() );
 
     }
 }
