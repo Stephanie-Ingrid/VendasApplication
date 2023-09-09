@@ -5,22 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="625dae89-2764-4c86-9767-e0ba1c255c73" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/validation/NotEmptyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/validation/constraintvalidation/NotEmptyListValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/repository/PedidosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/repository/PedidosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/ApiErrors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/ApiErrors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/ClienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/service/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/service/impl/PedidoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/service/impl/PedidoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/controller/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/dto/PedidoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/rest/dto/PedidoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/VendasApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/ItemPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/ItemPedido.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/enums/StatusPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/enums/StatusPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ClientesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ClientesRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ItemsPedidoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ItemsPedidoRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/PedidosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/PedidosRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ProdutosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ProdutosRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/exception/PedidoNaoEncontradoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/exception/PedidoNaoEncontradoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/exception/RegraNegocioException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/exception/RegraNegocioException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/ApiErrors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/ApiErrors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ClienteController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/PedidoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/PedidoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ProdutoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/AtualizaçãoStatusPedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/AtualizaçãoStatusPedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacaoItemPedidoDTO$InformacaoItemPedidoDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacaoItemPedidoDTO$InformacaoItemPedidoDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacaoItemPedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacaoItemPedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacoesPedidoDTO$InformacoesPedidoDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacoesPedidoDTO$InformacoesPedidoDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacoesPedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacoesPedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/ItemPedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/ItemPedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/PedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/PedidoDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/PedidoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/PedidoService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/impl/PedidoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/impl/PedidoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/meu_schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +52,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="com.haulmont.jpb.JpaEntity" />
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -106,7 +128,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/warzone/pmv-ads-2023-2-e4-proj-dad-t3-fidelpoints&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/warzone/vendas&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
