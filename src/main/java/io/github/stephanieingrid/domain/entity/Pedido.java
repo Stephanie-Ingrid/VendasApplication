@@ -1,9 +1,16 @@
 package io.github.stephanieingrid.domain.entity;
 
+import io.github.stephanieingrid.domain.enums.StatusPedido;
+import lombok.*;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name = "pedido")
 public class Pedido {
@@ -22,47 +29,13 @@ public class Pedido {
     @Column(name = "total", precision = 20, scale = 2)
     private BigDecimal Total;
 
+    @Enumerated (EnumType.STRING)
+    @Column(name = "status")
+    private StatusPedido status;
+
     @OneToMany(mappedBy = "pedido")
     private List<ItemPedido>itens;
 
-    public Integer getId() {
-        return id;
-    }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
-    public Cliente getCliente() {
-        return cliente;
-    }
-
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
-
-    public LocalDate getDataPedido() {
-        return dataPedido;
-    }
-
-    public void setDataPedido(LocalDate dataPedido) {
-        this.dataPedido = dataPedido;
-    }
-
-    public BigDecimal getTotal() {
-        return Total;
-    }
-
-    public void setTotal(BigDecimal total) {
-        Total = total;
-    }
-
-    @Override
-    public String toString() {
-        return "Pedido{" +
-                "id=" + id +
-                ", dataPedido=" + dataPedido +
-                ", Total=" + Total +
-                '}';
-    }
 }
