@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625dae89-2764-4c86-9767-e0ba1c255c73" name="Changes" comment="" />
+    <list default="true" id="625dae89-2764-4c86-9767-e0ba1c255c73" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/VendasApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/config/InternacionalizacaoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/config/InternacionalizacaoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/ItemPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/ItemPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/entity/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/enums/StatusPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/enums/StatusPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ClientesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ClientesRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ItemsPedidoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ItemsPedidoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/PedidosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/PedidosRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ProdutosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/domain/repository/ProdutosRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/exception/PedidoNaoEncontradoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/exception/PedidoNaoEncontradoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/exception/RegraNegocioException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/exception/RegraNegocioException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/ApiErrors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/ApiErrors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ApplicationControllerAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ClienteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/PedidoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/PedidoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/controller/ProdutoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/AtualizaçãoStatusPedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/AtualizaçãoStatusPedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacaoItemPedidoDTO$InformacaoItemPedidoDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacaoItemPedidoDTO$InformacaoItemPedidoDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacaoItemPedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacaoItemPedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacoesPedidoDTO$InformacoesPedidoDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacoesPedidoDTO$InformacoesPedidoDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacoesPedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/InformacoesPedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/ItemPedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/ItemPedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/PedidoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/rest/dto/PedidoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/PedidoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/PedidoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/impl/PedidoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/service/impl/PedidoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/validation/NotEmptyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/validation/NotEmptyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/validation/constraintvalidation/NotEmptyListValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/stephanieingrid/validation/constraintvalidation/NotEmptyListValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/vendas-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/vendas-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/vendas-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/vendas-1.0-SNAPSHOT.jar.original" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +73,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/spring-security-jwt" />
+                    <option name="lastUsedInstant" value="1694543506" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/refatorando-api" />
                     <option name="lastUsedInstant" value="1692910680" />
@@ -84,18 +129,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/warzone/vendas&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/User/warzone/pmv-ads-2023-2-e4-proj-dad-t3-fidelpoints",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="io.github.stephanieingrid.exception" />
@@ -108,8 +153,8 @@
       <recent name="C:\Users\User\warzone\vendas\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\warzone\vendas\.idea" />
       <recent name="C:\Users\User\warzone\vendas" />
+      <recent name="C:\Users\User\warzone\vendas\.idea" />
       <recent name="C:\Users\User\warzone\vendas\target" />
     </key>
   </component>
@@ -168,6 +213,15 @@
           <properties class="org.hibernate.hql.internal.ast.QuerySyntaxException" package="org.hibernate.hql.internal.ast" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class</url>
+          <line>171</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
