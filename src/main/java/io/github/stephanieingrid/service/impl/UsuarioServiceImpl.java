@@ -2,6 +2,7 @@ package io.github.stephanieingrid.service.impl;
 
 import io.github.stephanieingrid.domain.entity.Usuario;
 import io.github.stephanieingrid.domain.repository.UsuarioRepository;
+import io.github.stephanieingrid.exception.SenhaInvalidaException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -21,24 +22,35 @@ public class UsuarioServiceImpl implements UserDetailsService {
     private UsuarioRepository usuarioRepository;
 
     @Transactional
-    public Usuario salvar(Usuario usuario){
+    public Usuario salvar(Usuario usuario) {
         return usuarioRepository.save(usuario);
     }
 
-    @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        Usuario usuario = usuarioRepository
-                .findByLogin(username)
-                .orElseThrow(() -> new UsernameNotFoundException("Usuario não encontrado. "));
+    public UserDetails autenticar (Usuario usuario) {
+        UserDetails user = loadUserByUsername(usuario.getLogin());
+        boolean senhasBatem = encoder.matches(usuario.getSenha(), user.getPassword());
 
-        String[] roles = usuario.isAdmin() ?
-                new String[]{"ADMIN", "USER"} : new String[]{"USER"};
+        if (senhasBatem) {
+            return user;
+        }
+        throw new SenhaInvalidaException();
+        }
 
-        return User
-                .builder()
-                .username(usuario.getLogin())
-                .password(usuario.getSenha())
-                .roles("ADMIN","USER")
-                .build();
-    }
+        @Override
+        public UserDetails loadUserByUsername (String username) throws UsernameNotFoundException {
+            Usuario usuario = usuarioRepository
+                    .findByLogin(username)
+                    .orElseThrow(() -> new UsernameNotFoundException("Usuario não encontrado. "));
+
+            String[] roles = usuario.isAdmin() ?
+                    new String[]{"ADMIN", "USER"} : new String[]{"USER"};
+
+            return User
+                    .builder()
+                    .username(usuario.getLogin())
+                    .password(usuario.getSenha())
+                    .roles("ADMIN", "USER")
+                    .build();
+        }
 }
+

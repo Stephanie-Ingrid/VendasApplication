@@ -1,5 +1,6 @@
-package io.github.stephanieingrid;
+package io.github.stephanieingrid.security.jwt;
 
+import io.github.stephanieingrid.VendasApplication;
 import io.github.stephanieingrid.domain.entity.Usuario;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
@@ -64,7 +65,7 @@ public class JwtService {
         }
     }
 
-    public String obterLoginUsuario (String token) throws ExpiredJwtException{
+   public String obterLoginUsuario (String token) throws ExpiredJwtException{
         return (String) obterClaims(token).getSubject();
     }
 
