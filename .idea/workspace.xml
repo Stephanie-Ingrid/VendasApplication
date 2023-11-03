@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625dae89-2764-4c86-9767-e0ba1c255c73" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/stephanieingrid/VendasApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="bef47dc1-aeb9-414e-b7dc-8d90d9569a06" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,16 +33,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="homolog" />
+                    <option name="lastUsedInstant" value="1699033333" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feature/spring-security-jwt" />
                     <option name="lastUsedInstant" value="1694543506" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/refatorando-api" />
                     <option name="lastUsedInstant" value="1692910680" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="homolog" />
-                    <option name="lastUsedInstant" value="1692907977" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/mapeamento-entidades" />
